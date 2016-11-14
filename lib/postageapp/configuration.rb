@@ -81,6 +81,7 @@ class PostageApp::Configuration
   attr_accessor :framework
   attr_accessor :environment
   attr_accessor :logger
+  attr_accessor :max_retry
 
   # == Instance Methods =====================================================
   
